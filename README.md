@@ -1,5 +1,5 @@
 # Smart Battery Management System — Design Package
-**Version:** 1.0 | **Date:** 2025 | **Classification:** Engineering Reference
+**Version:** 1.0 | **Date:** 2026 | **Classification:** Engineering Reference
 
 ## Package Contents
 
