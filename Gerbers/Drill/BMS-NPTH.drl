@@ -1,0 +1,12 @@
+; Drill file — Non-Plated Through Holes (NPTH)
+; Generated: Smart BMS Rev 1.0
+M48
+METRIC,TZ
+T01C3.200  ; M3 mounting holes (non-plated, 3.2mm)
+%
+T01
+X4.000Y4.000
+X156.000Y4.000
+X4.000Y106.000
+X156.000Y106.000
+M30

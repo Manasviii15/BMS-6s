@@ -1,0 +1,92 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5
+      },
+      "diff_pair_dimensions": [
+        {"diameter": 0.0, "width": 0.25, "gap": 0.25}
+      ],
+      "rule_severities": {
+        "hole_clearance": "error",
+        "track_width": "warning"
+      },
+      "track_widths": [0.2, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0],
+      "via_dimensions": [
+        {"diameter": 0.6, "drill": 0.3},
+        {"diameter": 0.8, "drill": 0.4},
+        {"diameter": 1.6, "drill": 0.8}
+      ]
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {"equivalence_files": []},
+  "libraries": {
+    "pinned_footprint_libs": ["TI_BMS_Custom", "Connector_JST", "Package_TO_SOT_THT"],
+    "pinned_symbol_libs": ["Texas_Instruments", "STMicroelectronics", "Device"]
+  },
+  "meta": {"filename": "BMS.kicad_pro", "version": 1},
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "clearance": 0.3,
+        "name": "Power_High_Current",
+        "track_width": 8.0,
+        "via_diameter": 1.6,
+        "via_drill": 0.8,
+        "parent": "Default"
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "name": "CAN_Differential",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "parent": "Default"
+      }
+    ],
+    "net_colors": {}
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0
+    },
+    "legacy_lib_dir": "",
+    "meta": {"version": 1},
+    "net_format_name": "KiCad",
+    "ngspice_settings": {"WorkspaceSize": 1},
+    "page_layout_descr_file": ""
+  },
+  "sheets": [["root", ""]],
+  "text_variables": {
+    "COMPANY": "BMS Engineering Group",
+    "PROJECT_VERSION": "1.0",
+    "TITLE": "Smart Battery Management System"
+  }
+}

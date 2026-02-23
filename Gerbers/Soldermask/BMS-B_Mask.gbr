@@ -1,0 +1,26 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.11*%
+%TF.CreationDate,2025-01-15T10:00:00+00:00*%
+%TF.ProjectId,SmartBMS,00000000-0000-0000-0000-000000000000,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+%MOMM*%
+%LPD*%
+G04 Layer: Soldermask,Bot *
+G04 Board: Smart BMS 160x110mm *
+G04 Rev: 1.0 *
+G04 Board outline *
+%ADD10C,0.050000*%
+G01*
+X0Y0D02*
+X16000000Y0D01*
+X16000000Y11000000D01*
+X0Y11000000D01*
+X0Y0D01*
+G04 Back Soldermask - through-hole pads and bottom SMD *
+%ADD11C,3.500000*%
+D11*
+X6700000Y5750000D03*
+X8150000Y5750000D03*
+M02*

@@ -1,0 +1,41 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.11*%
+%TF.CreationDate,2025-01-15T10:00:00+00:00*%
+%TF.ProjectId,SmartBMS,00000000-0000-0000-0000-000000000000,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+%MOMM*%
+%LPD*%
+G04 Layer: Legend,Top *
+G04 Board: Smart BMS 160x110mm *
+G04 Rev: 1.0 *
+G04 Board outline *
+%ADD10C,0.050000*%
+G01*
+X0Y0D02*
+X16000000Y0D01*
+X16000000Y11000000D01*
+X0Y11000000D01*
+X0Y0D01*
+G04 Front Silkscreen *
+G04 Component designators, board outline labels, pin 1 markers *
+%ADD11C,0.120000*%
+D11*
+G04 U1 designator *
+X8800000Y8600000D02*
+X9200000Y8600000D01*
+X9200000Y8600000D02*
+X9200000Y8200000D01*
+G04 U2 designator *
+X11500000Y8200000D02*
+X11900000Y8200000D01*
+G04 Pin 1 markers (triangle) *
+%ADD12C,0.400000*%
+D12*
+X8750000Y8200000D03*
+X11500000Y7950000D03*
+G04 Board ID text *
+%ADD13C,0.150000*%
+D13*
+M02*

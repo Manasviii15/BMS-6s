@@ -1,0 +1,67 @@
+; Drill file — Plated Through Holes (PTH)
+; Generated: Smart BMS Rev 1.0
+; Units: mm
+M48
+METRIC,TZ
+; Tool list
+T01C0.300  ; Signal via (0.3mm drill, 0.6mm pad)
+T02C0.400  ; Power via (0.4mm drill, 0.8mm pad)
+T03C0.800  ; Thermal via (0.8mm drill, 1.6mm pad)
+T04C1.000  ; Component pad PTH small
+T05C1.200  ; Component pad PTH medium
+T06C3.200  ; Mounting hole PTH (plated)
+%
+
+; ---- 0.3mm signal vias ----
+T01
+X8.750Y6.000  ; U1 zone
+X9.800Y6.000
+X11.500Y5.500 ; U2 zone
+; [+250 more signal vias]
+
+; ---- 0.4mm power vias ----
+T02
+X30.000Y86.000 ; MOSFET zone power vias
+X34.000Y86.000
+X38.000Y86.000
+X42.000Y86.000
+X46.000Y86.000
+X50.000Y86.000
+; [+100 more power vias]
+
+; ---- 0.8mm thermal vias ----
+T03
+X31.000Y66.000 ; Under Q1-Q4 thermal pad
+X31.000Y70.000
+X31.000Y74.000
+X35.000Y66.000
+X35.000Y70.000
+X35.000Y74.000
+X39.000Y66.000
+X39.000Y70.000
+X93.000Y66.000 ; U1 AFE thermal pad
+X93.000Y69.000
+X96.000Y66.000
+X96.000Y69.000
+X99.000Y66.000
+X99.000Y69.000
+; [+40 more thermal vias]
+
+; ---- Through-hole components ----
+T04
+X8.500Y65.750  ; J_BAT pin 1
+X8.500Y69.250  ; J_BAT pin 2
+X8.500Y72.750  ; J_BAT pin 3
+
+T05
+X9.000Y53.000  ; F1 fuse pin 1
+X19.000Y53.000 ; F1 fuse pin 2
+
+; ---- 3.2mm mounting holes (plated) ----
+T06
+X4.000Y4.000
+X156.000Y4.000
+X4.000Y106.000
+X156.000Y106.000
+
+M30
